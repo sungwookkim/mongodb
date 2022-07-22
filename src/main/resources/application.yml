@@ -1,0 +1,13 @@
+mongodb:
+  master:
+    host: localhost
+    port: 27017
+    database: board
+    auth-database: admin
+    username: user
+    password: password
+  sencondary:
+    - host: localhost
+      port: 27018
+    - host: localhost
+      port: 27019
